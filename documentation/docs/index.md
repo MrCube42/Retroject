@@ -5,6 +5,6 @@ Willkommen in der Dokumentation der Software _Retroject_. Hier befinden sich all
 - [Onboarding](./onboarding/): Ich bin neu im Entwicklungs-Team, wo fange ich an?
 - Technische Dokumentation
   - [Architekturübersicht](./technical/architecture)
-  - [Getroffene Entscheidungen](./technical/decisions.md)
+  - [Getroffene Entscheidungen](./technical/decisions)
   - Coding-Richtlinien
-- Entwicklungs-Team und Kontakt
+- [Entwicklungs-Team und Kontakt](./contact/team)
