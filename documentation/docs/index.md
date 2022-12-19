@@ -22,4 +22,8 @@ features:
     title: Technische Dokumentation
     details: Ich möchte technische Details erfahren.
     link: ./technical/architecture
+  - icon: ✉️
+    title: Kontakt
+    details: Wie erreiche ich das Entwicklungs-Team?
+	  link: ./contact/team
 ---
