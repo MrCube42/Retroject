@@ -32,6 +32,17 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Kontakt",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: "Team",
+            link: "contact/team",
+          },
+        ],
+      },
     ],
   },
 });
