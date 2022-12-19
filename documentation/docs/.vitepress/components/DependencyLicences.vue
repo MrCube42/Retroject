@@ -8,14 +8,13 @@ const props = defineProps({
   },
 });
 
-function asDependencyLicenseInfos(infos: Record<string, string>) {
-  return Object.entries(infos).map(([name, license]) => ({
+// Generate a list of name and license objects for a more comfortable iteration with v-for.
+const infos = computed(() =>
+  Object.entries(props.licenseInfos).map(([name, license]) => ({
     name,
     license,
-  }));
-}
-
-const dependencies = computed(() => asDependencyLicenseInfos(props.licenseInfos));
+  })),
+);
 </script>
 
 <template>
@@ -24,7 +23,7 @@ const dependencies = computed(() => asDependencyLicenseInfos(props.licenseInfos)
       <th>Abhängigkeit</th>
       <th>Lizenz</th>
     </tr>
-    <tr v-for="info of dependencies" :key="info.name">
+    <tr v-for="info of infos" :key="info.name">
       <td>{{ info.name }}</td>
       <td>{{ info.license }}</td>
     </tr>
