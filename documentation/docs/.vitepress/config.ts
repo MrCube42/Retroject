@@ -1,45 +1,56 @@
-import { defineConfig } from "vitepress";
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: "Retroject Dokumentation",
-  description: " der Software Retroject",
-  lang: "de-DE",
+  title: 'Retroject Dokumentation',
+  description: ' der Software Retroject',
+  lang: 'de-DE',
   themeConfig: {
-    siteTitle: "Retroject",
-    logo: "/images/logo.png",
+    siteTitle: 'Retroject',
+    logo: '/images/logo.png',
     sidebar: [
       {
-        text: "Onboarding",
+        text: 'Onboarding',
         items: [
           {
-            text: "Für Neulinge",
-            link: "onboarding/",
+            text: 'Für Neulinge',
+            link: 'onboarding/',
           },
         ],
       },
       {
-        text: "Technische Dokumentation",
+        text: 'Technische Dokumentation',
         collapsible: true,
         collapsed: true,
         items: [
           {
-            text: "Architekturdokumentation",
-            link: "technical/architecture",
+            text: 'Architekturdokumentation',
+            link: 'technical/architecture',
           },
           {
-            text: "Entscheidungen",
-            link: "technical/decisions",
+            text: 'Entscheidungen',
+            link: 'technical/decisions',
           },
         ],
       },
       {
-        text: "Kontakt",
+        text: 'Kontakt',
         collapsible: true,
         collapsed: true,
         items: [
           {
-            text: "Team",
-            link: "contact/team",
+            text: 'Team',
+            link: 'contact/team',
+          },
+        ],
+      },
+      {
+        text: 'Rechtliches',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          {
+            text: 'Lizenzen',
+            link: 'legal/',
           },
         ],
       },
