@@ -4,12 +4,17 @@
   "description": "The internal software documentation of the retroject project.",
   "scripts": {
     "start": "vitepress dev docs",
-    "build": "vitepress build docs"
+    "prebuild": "npm run update:license-infos",
+    "build": "vitepress build docs",
+    "update:license-infos": "ts-node ./tools/update-license-infos.ts ../package.json ./docs/legal/licenses.json"
   },
   "author": "David Würfel",
   "license": "UNLICENSED",
   "dependencies": {
     "vitepress": "^1.0.0-alpha.31",
     "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
