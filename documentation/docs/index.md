@@ -25,5 +25,5 @@ features:
   - icon: ✉️
     title: Kontakt
     details: Wie erreiche ich das Entwicklungs-Team?
-	  link: ./contact/team
+    link: ./contact/team
 ---
