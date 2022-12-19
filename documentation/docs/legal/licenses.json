@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "vue": "MIT"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "MIT",
+    "@types/jsdom": "MIT",
+    "@types/node": "MIT",
+    "@vitejs/plugin-vue": "MIT",
+    "@vue/eslint-config-prettier": "MIT",
+    "@vue/eslint-config-typescript": "MIT",
+    "@vue/test-utils": "MIT",
+    "@vue/tsconfig": "MIT",
+    "eslint": "MIT",
+    "eslint-plugin-vue": "MIT",
+    "jsdom": "MIT",
+    "npm-run-all": "MIT",
+    "typescript": "Apache-2.0",
+    "vite": "MIT",
+    "vitest": "MIT",
+    "vue-tsc": "MIT"
+  }
+}
