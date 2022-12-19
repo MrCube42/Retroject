@@ -1,10 +1,25 @@
-# _Retroject_ Dokumentation
+---
+layout: home
 
-Willkommen in der Dokumentation der Software _Retroject_. Hier befinden sich alle relevanten Informationen, die im Zusammenhang mit diesem Projekt interessant sind.
+hero:
+  name: Retroject
+  text: Dokumentation
+  tagline: Alle Informationen zum Projekt jederzeit zugänglich und gesammelt an einem Ort.
+  image:
+    src: /images/logo.png
+    alt: Retroject Logo
+  actions:
+    - theme: alt
+      text: Auf GitHub ansehen
+      link: https://github.com/MrCube42/Retroject
 
-- [Onboarding](./onboarding/): Ich bin neu im Entwicklungs-Team, wo fange ich an?
-- Technische Dokumentation
-  - [Architekturübersicht](./technical/architecture)
-  - [Getroffene Entscheidungen](./technical/decisions)
-  - Coding-Richtlinien
-- [Entwicklungs-Team und Kontakt](./contact/team)
+features:
+  - icon: 🧑‍🎓
+    title: Onboarding
+    details: Ich bin neu im Team, wo fange ich an?
+    link: ./onboarding/
+  - icon: ⚙️
+    title: Technische Dokumentation
+    details: Ich möchte technische Details erfahren.
+    link: ./technical/architecture
+---
